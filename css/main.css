@@ -101,7 +101,7 @@ p
     color: #FA5959;
 }
 .hero{
-    background-image: url("../img/bg.svg");
+    background-image: url("../img/bg-hero-not-box-shadow.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: calc(50% + 635px) calc(50% + 0px);
