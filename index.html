@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My bookmark</title>
     <link rel="stylesheet" href="./css/normalize.css">
-    <!-- <link rel="stylesheet" href="./css/main.css"> -->
-    <link rel="stylesheet" href="./css/minifile.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./css/minifile.css"> -->
 </head>
 <body>
         <header class="site-header">
@@ -84,36 +84,69 @@
 
                     <ul class="feature-box-list feature-list">
                         <li class="feature-list__inner feature-list__inner--active">
-                            <button class="feature-list__text" type="button">
+                            <a class="feature-list__text" href="#BookmarkBox">
                                 Simple Bookmarking
-                            </button>
+                            </a>
                         </li>
                         <li class="feature-list__inner ">
-                            <button class="feature-list__text" type="button">
-                                Simple Bookmarking
-                            </button>
+                            <a class="feature-list__text" href="#IntelligentBox">
+                                Speedy Searching
+                            </a>
                         </li>
                         <li class="feature-list__inner ">
-                            <button class="feature-list__text" type="button">
-                                Simple Bookmarking
-                            </button>
+                            <a class="feature-list__text" href="#ShereBox">
+                                Easy Sharing
+                            </a>
                         </li>
                     </ul>
+                    <div>
+                        <div class="hero-box feature-rigt-active - feature-show" id="BookmarkBox">
 
-                    <div class="hero-box feature-rigt-active">
+                            <h2 class="hero-box__title">
+                                Bookmark in one click
+                            </h2>
+                            <p class="hero-box__text">
+                                Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+                            </p>
+                            <div class="hero-box__links hero-link"> 
+                                <a class="hero-link__chrome" href="#">
+                                    Get it on Chrome
+                                </a>
+                            </div>
+                        </div>
 
-                        <h2 class="hero-box__title">
-                            Bookmark in one click
-                        </h2>
-                        <p class="hero-box__text">
-                            Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
-                        </p>
-                        <div class="hero-box__links hero-link"> 
-                            <a class="hero-link__chrome" href="#">
-                                Get it on Chrome
-                            </a>
+                        <div class="hero-box feature-rigt-active " id="IntelligentBox">
+    
+                            <h2 class="hero-box__title">
+                            Intelligent search
+                            </h2>
+                            <p class="hero-box__text">
+                            Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.
+                            </p>
+                            <div class="hero-box__links hero-link"> 
+                                <a class="hero-link__chrome" href="#">
+                                    Get it on Chrome
+                                </a>
+                            </div>
+                        </div>
+                                        
+                        <div class="hero-box feature-rigt-active " id="ShereBox">
+
+                            <h2 class="hero-box__title">
+                                Share your bookmarks
+                            </h2>
+                            <p class="hero-box__text">
+                            Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
+                            </p>
+                            <div class="hero-box__links hero-link"> 
+                                <a class="hero-link__chrome" href="#">
+                                    Get it on Chrome
+                                </a>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
             </section>
 
@@ -256,14 +289,14 @@
                             35,000+ ALREADY JOINED
                         </small>
 
-                        <h3 class="email-box__title">
+                        <h2 class="email-box__title">
                             Stay up-to-date with what
                             we’re doing
-                        </h3>
+                        </h2>
 
                         <form class="email-box__form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
 
-                            <input class="email-box__input email-input" type="email" placeholder="Enter your email address" aria-label="Enter your email" required>
+                            <input class="email-box__input email-input" type="email" placeholder="Enter  Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.your email address" aria-label="Enter your email" required>
                             <button class="email-box__button">
                                 Contact Us
                             </button>
@@ -320,5 +353,9 @@
                 </div>
             </div>
         </footer>
+
+
+        
+<script src="./js/main.js"></script>
 </body>
 </html>

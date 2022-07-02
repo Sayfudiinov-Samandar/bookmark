@@ -333,32 +333,42 @@ ul{
 
 .feature-list__inner--active{
     border-bottom: 4px solid #FA5959;
-
 }
+
+
 
 .feature-list__inner{
     list-style: none;
+    padding-bottom: 25px;
 
 }
 .feature-list__text{
-    background-color: transparent;
-    border: none;
-    padding: 0 40px 25px;
+    padding: 0 40px 25px 40px;
     font-weight: 400;
     font-size: 16px;
     line-height: 17px;
     text-align: center;
     letter-spacing: 0.533333px;
+    background-color: transparent;
     color: #242A45;
+    border: none;
+    text-decoration: none;
 }
 .feature-list__text:hover{
     color: #FA5959;
 }
 .feature-rigt-active{
+    display: none;
     position: relative;
     margin-left: auto;
 
 }
+
+.feature-show{
+    display: block;
+}
+
+
 .feature-rigt-active::before{
     position: absolute;
     left: -245%;
@@ -370,7 +380,36 @@ ul{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: calc(50% + 0px) calc(50% + 0px);
+
 }
+
+
+.feature-rigt-active:nth-child(2):before{
+    position: absolute;
+    left: -245%;
+    top: 10%;
+    content: "";
+    width: 1250px; 
+    height: 535px;
+    background-image: url("../img/search-bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: calc(50% + 0px) calc(50% + 0px);
+}
+.feature-rigt-active:nth-child(3):before{
+    position: absolute;
+    left: -245%;
+    top: 10%;
+    content: "";
+    width: 1250px; 
+    height: 535px;
+    background-image: url("../img/shere-bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: calc(50% + 0px) calc(50% + 0px);
+}
+
+
 .quetion-sectiion{
     padding-top: 230px;
     padding-bottom: 149px;
