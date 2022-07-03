@@ -1,7 +1,7 @@
 //html dagi claslarni var ozgaruvchiga o'zlashtirish
 var elListBox=document.querySelectorAll(".feature-list__inner");
 var elListLink=document.querySelectorAll(".feature-list__text")
-var elListBg = document.querySelectorAll(".feature-rigt-active")
+var elListBg = document.querySelectorAll(".bookmark-wrapper")
 //
 elListLink.forEach(function(links){
 

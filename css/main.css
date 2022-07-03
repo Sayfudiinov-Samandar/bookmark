@@ -357,6 +357,7 @@ ul{
 .feature-list__text:hover{
     color: #FA5959;
 }
+
 .feature-rigt-active{
     display: none;
     position: relative;
@@ -364,12 +365,12 @@ ul{
 
 }
 
-.feature-show{
+.feature-show .feature-rigt-active{
     display: block;
 }
 
 
-.feature-rigt-active::before{
+.simple::before{
     position: absolute;
     left: -245%;
     top: 10%;
@@ -384,7 +385,7 @@ ul{
 }
 
 
-.feature-rigt-active:nth-child(2):before{
+.search:before{
     position: absolute;
     left: -245%;
     top: 10%;
@@ -396,7 +397,7 @@ ul{
     background-size: contain;
     background-position: calc(50% + 0px) calc(50% + 0px);
 }
-.feature-rigt-active:nth-child(3):before{
+.shere:before{
     position: absolute;
     left: -245%;
     top: 10%;
