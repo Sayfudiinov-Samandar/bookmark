@@ -227,9 +227,21 @@ ul{
 }
 .nav-list__box:nth-child(2)::before{
     background-image: url("../img/frifox.svg");
+    animation: krug 5s infinite backwards;
+
 }
+
+
+
+    @keyframes krug {
+        0%{
+            transform: rotate(360deg);
+        }
+    }
+
 .nav-list__box:nth-child(3)::before{
     background-image: url("../img/opera.svg");
+    animation: krug 5s infinite backwards;
 }
 .nav-list__box:nth-child(3){
     position: absolute;
@@ -246,6 +258,8 @@ ul{
     height: 100px;
     background-repeat: no-repeat;
     background-size: contain;
+    animation: krug 5s infinite backwards;
+
 }
 .nav-list__box::after{
     position: absolute;
@@ -360,14 +374,40 @@ ul{
 
 .feature-rigt-active{
     display: none;
+    /* opacity: 0; */
     position: relative;
     margin-left: auto;
+
 
 }
 
 .feature-show .feature-rigt-active{
     display: block;
+    /* opacity: 1; */
+    animation: shimmy 1s linear;
+    animation-direction: alternate;
+
 }
+
+@keyframes shimmy {
+
+    0% {
+      transform: translate(1000px, 0); 
+      opacity: 0;   
+    }
+    50%{
+        transform: translate(500px,0);
+        opacity: 0.5;
+    }
+    100% {
+      transform: translate(0, 0);
+        opacity: 1;
+    }
+
+
+
+
+  }
 
 
 .simple::before{
