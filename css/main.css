@@ -554,7 +554,7 @@ ul{
 }
 .email-box__input:not(:placeholder-shown):not(:focus):invalid{
     border: 2px solid #FA5959;
-    border-bottom: 7px solid #fa5959;
+    border-bottom: 9px solid #fa5959;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     transition: opacity 0.5s ease;
